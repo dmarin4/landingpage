@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+}
+
+/**
+ * Navigation Section
+ */
+.top-navigation  {
+  background-color: white;
+}
+.top-navigation > .content  {
+  width: 900px;
+  height: 100px;
+  padding: 0px 15px;
+}
+.top-navigation .links {
+    float: right;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 1.563rem;
+}
+
+.top-navigation > .logo {
+  height: 4.375rem;
+}
