@@ -1,3 +1,24 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
 /**
  * HTML5 display-role reset for older browsers
  */
@@ -27,6 +48,12 @@ body {
     letter-spacing: 0.03em;
 }
 
+.content {
+    width: 970px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  text-align: center;
+}
 /**
  * Navigation Section
  */
@@ -46,7 +73,7 @@ body {
     float: right;
     color: #838994;
     font-size: 1.04rem;
-    margin-top: 1.7rem;
+    margin-top: 2.1rem;
     -webkit-font-smoothing: antialiased;
 }
 .top-navigation .links li {
@@ -56,6 +83,7 @@ body {
 
 .top-navigation .logo {
   height: 5rem;
+  float: left;
 }
 .top-navigation .links > .active {
     color: #4c5058;
@@ -108,7 +136,6 @@ font-size: 1.563rem;
     padding: 1rem 1.5rem;
     color: white;
     font-size: 1.125rem;
-    margin-left: 52rem;
 }
 
 button:hover {
@@ -150,3 +177,45 @@ background-color: #fff;
     font-size: 1.563rem;
     margin: 2.5rem 0px 1.875rem;
 }
+/**
+ * Footer Section
+ */
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+  }
+  .social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+
